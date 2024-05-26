@@ -22,6 +22,6 @@ services:
     POSTGRES_USER: postgres
     POSTGRES_PASSWORD: password
     DB_HOST: db
-    DATABASE_URL: postgres://postgres:password@db:5432/myapp_development
+    
 volumes:
   db-data: null
